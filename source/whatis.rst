@@ -5,8 +5,8 @@ Xfce is a lightweight `desktop environment <http://en.wikipedia.org/wiki/Desktop
 
 Xfce project has a high emphasis on stability meaning that core functionality does not change frequently causing you to re-learn your workflow.
 
-Why not use other lightweight environments like LXDE?
-=====================================================
+Why not use other lightweight environments ?
+============================================
 
 You can! It is all about choice. There are a variety of reasons to use Xfce:
 
