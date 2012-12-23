@@ -17,6 +17,7 @@ Contents
    install
    components
    goodies
+   misc_tips
 	      
 Indices and tables
 ==================
