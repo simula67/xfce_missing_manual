@@ -65,12 +65,88 @@
 </pre></div>
 </div>
 <p>If you want to use <em>stock</em> Xfce (which is highly recommended), you can use the following description.</p>
+<p>Installing Xfce on Ubuntu 12.04 LTS involves three main steps :</p>
+<ol class="arabic simple">
+<li>Opening up terminal</li>
+</ol>
+<ul class="simple">
+<li>Click on the dash icon</li>
+</ul>
+<div class="figure align-center">
+<img alt="Click on Dash Icon" src="../_images/1_click_on_dash_icon.png" />
+<p class="caption">Click on the dash icon</p>
+</div>
+<ul class="simple">
+<li>Now search for the terminal software. Click on the terminal icon to open the terminal application.</li>
+</ul>
+<div class="figure align-center">
+<img alt="Search for terminal application software" src="../_images/2_search_for_terminal_and_select_terminal_application.png" />
+<p class="caption">Search and find the terminal application</p>
+</div>
+<ol class="arabic simple" start="2">
+<li>Entering the command to install Xfce</li>
+</ol>
+<p>Once the terminal application opens up you need to enter the following command to install Xfce:</p>
+<div class="highlight-none"><div class="highlight"><pre>sudo apt-get install xfce4 xfce4-goodies
+</pre></div>
+</div>
+<p>You may be prompted to enter your pasword and authenticate your install.</p>
+<div class="figure align-center">
+<img alt="Type in command to install Xfce" src="../_images/3_command_xfce_install.png" />
+<p class="caption">Enter the command to install Xfce</p>
+</div>
+<p>You will need to be connected to the Internet to begin the installation. Once you authenticate, Ubuntu will begin downloading and installing Xfce on your computer.</p>
+<div class="figure align-center">
+<img alt="Downloading and installing Xfce" src="../_images/4_downloading_xfce_hddtemp.png" />
+<p class="caption">Downloading and installing Xfce</p>
+</div>
+<p>On Ubuntu 12.04 LTS, you may be prompted to answer a question about hddtemp during installation. Please do not worry about this and press ENTER to select the default &#8220;No&#8221; option.</p>
+<ol class="arabic simple" start="3">
+<li>Logging out, selecting and logging into Xfce</li>
+</ol>
+<ul class="simple">
+<li>Now, if you want to use your brand new Xfce installation, please log out.</li>
+</ul>
+<div class="figure align-center">
+<img alt="Logout" src="../_images/5_logout.png" />
+<p class="caption">Logout</p>
+</div>
+<ul class="simple">
+<li>Click on the Ubuntu icon.</li>
+</ul>
+<div class="figure align-center">
+<img alt="Click on Ubuntu icon" src="../_images/6_click_on_ubuntu_icon.png" />
+<p class="caption">Click on Ubuntu Icon</p>
+</div>
+<ul class="simple">
+<li>Click on Xfce Session</li>
+</ul>
+<div class="figure align-center">
+<img alt="Select Xfce Session" src="../_images/7_click_on_xfce_session.png" />
+<p class="caption">Click on Xfce Session Icon</p>
+</div>
+<ul class="simple">
+<li>Enter your password and log into Xfce</li>
+</ul>
+<div class="figure align-center">
+<img alt="Login" src="../_images/8_sign_into_xfce.png" />
+<p class="caption">Log into Xfce</p>
+</div>
+<ul class="simple">
+<li>When logging in, select &#8220;Use Default Configuration&#8221; to get the standard Xfce desktop.</li>
+</ul>
+<div class="figure align-center">
+<img alt="Default Xfce configuration" src="../_images/9_click_on_use_default_config.png" />
+<p class="caption">Xfce Desktop.</p>
+</div>
+<p>Voila! You have entered the default Xfce desktop.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Do not worry about the somewhat unnerving look of the default install. We will be looking into it in a few minutes. By default, the Xfce installation in Ubuntu has a nasty <a class="reference external" href="https://bugs.launchpad.net/ubuntu/+source/xfce4/+bug/1050012">bug</a> causing it to fall back on default GTK3 theme. You can work around it by entering the following command into terminal: &#8220;cp -fdr /usr/share/themes/Radiance/gtk-3.0 ~/.config/gtk-3.0/&#8221;</p>
+</div>
 </div>
 <div class="section" id="fedora">
 <h2>Fedora<a class="headerlink" href="#fedora" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="gentoo">
-<h2>Gentoo<a class="headerlink" href="#gentoo" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -85,7 +161,6 @@
 <li><a class="reference internal" href="#">Linux</a><ul>
 <li><a class="reference internal" href="#ubuntu">Ubuntu</a></li>
 <li><a class="reference internal" href="#fedora">Fedora</a></li>
-<li><a class="reference internal" href="#gentoo">Gentoo</a></li>
 </ul>
 </li>
 </ul>

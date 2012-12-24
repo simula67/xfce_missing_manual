@@ -10,3 +10,5 @@ Well, it depends on your system. Xfce is available on a plethora of Operating Sy
    install/linux.rst
    install/freebsd.rst
    install/netbsd.rst
+
+
