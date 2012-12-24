@@ -49,4 +49,6 @@ This is why it is important to choose a proper theme for xfwm4 also (on top of s
 Thunar
 ------
 
-Thunar is the file manager written for Xfce. 
+Thunar (*thunar*) is the file manager written for Xfce. File Managers help you organize your files, transfer files between your computer and other devices like Pen Drive, and helps you preview and easily copy also helps you perform a variety of custom actions.
+
+ 

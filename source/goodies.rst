@@ -7,7 +7,7 @@ Along with Xfce core, the developers have also prepared a number of utility soft
 Xfce Terminal Emulator
 ----------------------
 
-Xfce Terminal Emulator (*xfce4-terminal*) is the Xfce version of the terminal emulators available for other desktop environments. A terminal emulator is a small program inside which your shell ( such as bash, zsh etc runs ). You can use any terminal emulator of your choice with Xfce, however Xfce Terminal is very lightweight and very responsive. This means you can open tabs very easily, switch between open tabs and open large number of terminals in blink of an eye. It is so fast and flexible that you will no longer need applications like GNU Screen.
+Xfce Terminal Emulator (*xfce4-terminal*) is the Xfce version of the terminal emulators available for other desktop environments. A terminal emulator is a small program inside which your shell ( such as bash, zsh etc ) runs. You can use any terminal emulator of your choice with Xfce, however Xfce Terminal is very lightweight and very responsive. This means you can open tabs very easily, switch between open tabs and open large number of terminals in the blink of an eye. It is so fast and flexible that you will no longer need applications like GNU Screen.
 
 Mousepad
 --------
