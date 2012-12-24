@@ -30,7 +30,16 @@ Xfce Panel (*xfce4-panel*) is the panel application for Xfce. You can configure 
 
    xfce4-panel --preferences
 
-Alternatively, you can use find the panel preferences at Xfce Settings Manager --> Panel
+
+You can also find the panel preferences at Xfce Settings Manager --> Panel.
+
+Alternatively, you can also find panel preferences from Right Clicking on an existing panel and choosing Panel --> Panel Preferences.
+
+.. figure:: _static/images/panel_preferences.png
+   :alt: Panel Preferences
+   :align: center
+
+   Another way to find panel preferences
 
 Xfdesktop
 ---------
