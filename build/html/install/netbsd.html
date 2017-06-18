@@ -1,16 +1,14 @@
 
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Installing Xfce on NetBSD &mdash; Xfce: The Missing Manual 0.1 documentation</title>
+    <title>Installing Xfce 4.12 on NetBSD &#8212; Xfce: The Missing Manual 0.1 documentation</title>
     
-    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     
     <script type="text/javascript">
@@ -19,93 +17,123 @@
         VERSION:     '0.1',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
       };
     </script>
     <script type="text/javascript" src="../_static/jquery.js"></script>
     <script type="text/javascript" src="../_static/underscore.js"></script>
     <script type="text/javascript" src="../_static/doctools.js"></script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="top" title="Xfce: The Missing Manual 0.1 documentation" href="../index.html" />
-    <link rel="up" title="How to install Xfce?" href="../install.html" />
-    <link rel="next" title="Xfce4 Settings Manager" href="../components.html" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Components of Xfce" href="../components.html" />
     <link rel="prev" title="Installing Xfce on FreeBSD" href="freebsd.html" /> 
   </head>
   <body>
-    <div class="related">
+    <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
           <a href="../genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="../components.html" title="Xfce4 Settings Manager"
+          <a href="../components.html" title="Components of Xfce"
              accesskey="N">next</a> |</li>
         <li class="right" >
           <a href="freebsd.html" title="Installing Xfce on FreeBSD"
              accesskey="P">previous</a> |</li>
-        <li><a href="../index.html">Xfce: The Missing Manual 0.1 documentation</a> &raquo;</li>
-          <li><a href="../install.html" accesskey="U">How to install Xfce?</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="../index.html">Xfce: The Missing Manual 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../install.html" accesskey="U">How to install Xfce?</a> &#187;</li> 
       </ul>
     </div>  
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
-          <div class="body">
+          <div class="body" role="main">
             
-  <div class="section" id="installing-xfce-on-netbsd">
-<h1>Installing Xfce on NetBSD<a class="headerlink" href="#installing-xfce-on-netbsd" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="installing-xfce-4-12-on-netbsd">
+<h1>Installing Xfce 4.12 on NetBSD<a class="headerlink" href="#installing-xfce-4-12-on-netbsd" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="from-binaries">
+<h2>From binaries:<a class="headerlink" href="#from-binaries" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p># pkgin -y in xfce4 xfce4-extras</p>
+<p>or</p>
+<p># pkg_add xfce4 xfce4-extras</p>
+</div></blockquote>
+</div>
+<div class="section" id="from-pkgsrc-source-package-manager-for-netbsd-and-others">
+<h2>From <a class="reference external" href="http://pkgsrc.org/">pkgsrc</a> (source package manager for NetBSD and others):<a class="headerlink" href="#from-pkgsrc-source-package-manager-for-netbsd-and-others" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p># cd /usr/pkgsrc/meta-pkg/xfce4</p>
+<p># make install clean</p>
+<p># cd /usr/pkgsrc/meta-pkg/xfce4-extras</p>
+<p># make install clean</p>
+</div></blockquote>
+<p>Besides the meta packages, there are more xfce applications, panel
+plugins, thunar plugins you can install, see the <a class="reference external" href="http://pkgsrc.se/search.php?so=xfce4">List of xfce packages
+in pkgsrc</a>. <a class="reference external" href="https://wiki.netbsd.org/xfce4/">More information
+on xfce packages for pkgsrc</a></p>
+</div>
 </div>
 
 
           </div>
         </div>
       </div>
-      <div class="sphinxsidebar">
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Installing Xfce 4.12 on NetBSD</a><ul>
+<li><a class="reference internal" href="#from-binaries">From binaries:</a></li>
+<li><a class="reference internal" href="#from-pkgsrc-source-package-manager-for-netbsd-and-others">From pkgsrc (source package manager for NetBSD and others):</a></li>
+</ul>
+</li>
+</ul>
+
   <h4>Previous topic</h4>
   <p class="topless"><a href="freebsd.html"
                         title="previous chapter">Installing Xfce on FreeBSD</a></p>
   <h4>Next topic</h4>
   <p class="topless"><a href="../components.html"
-                        title="next chapter">Xfce4 Settings Manager</a></p>
-  <h3>This Page</h3>
-  <ul class="this-page-menu">
-    <li><a href="../_sources/install/netbsd.txt"
-           rel="nofollow">Show Source</a></li>
-  </ul>
-<div id="searchbox" style="display: none">
+                        title="next chapter">Components of Xfce</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/install/netbsd.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
-    </p>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="clearer"></div>
     </div>
-    <div class="related">
+    <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
           <a href="../genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="../components.html" title="Xfce4 Settings Manager"
+          <a href="../components.html" title="Components of Xfce"
              >next</a> |</li>
         <li class="right" >
           <a href="freebsd.html" title="Installing Xfce on FreeBSD"
              >previous</a> |</li>
-        <li><a href="../index.html">Xfce: The Missing Manual 0.1 documentation</a> &raquo;</li>
-          <li><a href="../install.html" >How to install Xfce?</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="../index.html">Xfce: The Missing Manual 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../install.html" >How to install Xfce?</a> &#187;</li> 
       </ul>
     </div>
 <center>
